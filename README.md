@@ -139,7 +139,7 @@ kNN on PCA-reduced datapoints. We will consider each target separately. First, w
     29-NN macro recall: 7.93%
 
 
-We can see that increasing the value of $k$ tends to increase the accuracy and decrease the macro recall. This suggests that the model performs better on samples from more represented classes while performing worse on other samples. This is consistent with our intuition of data points having more neighbors from overrepresented classes.
+We can see that increasing the value of k tends to increase the accuracy and decrease the macro recall. This suggests that the model performs better on samples from more represented classes while performing worse on other samples. This is consistent with our intuition of data points having more neighbors from overrepresented classes.
 
 Next, we check the vowel diacritic target.
 
@@ -324,10 +324,10 @@ The results look realistic. However, this is only 1 from 3 underrepresented clas
 Table shows error rates for different architectures and classes. Some of the models were trained with 3 outputs at once, some of them were trained only on grapheme root (the most difficult class). Performance in these approaches wasn’t statistically different.
 
 Macro recall is metric used in the competition as the leaderboard metric and is defined as
-$$
-\frac{1}{|L|} \sum_{l\in L} R(y_l, \text{model}(x_l))
-$$
-for $L$ being a set of possible targets and $R$ being a function calculating vanilla recall. Grapheme root is twice as important as vowel diactric or consonant diactric for the competition leaderboard metric.
+
+![eq](images/eqn.png)
+
+for L being a set of possible targets and R being a function calculating vanilla recall. Grapheme root is twice as important as vowel diactric or consonant diactric for the competition leaderboard metric.
 
 **Table of Results**
 
