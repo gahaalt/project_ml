@@ -1,4 +1,4 @@
-# Bengali character recognition
+# Report: Bengali character recognition
 
 <figure>
 <img src='images/bengali_visualization.png' width=600 height=600 />
