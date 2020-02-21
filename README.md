@@ -325,7 +325,7 @@ Table shows error rates for different architectures and classes. Some of the mod
 
 Macro recall is metric used in the competition as the leaderboard metric and is defined as
 
-![eq](images/eqn.png)
+![png](images/recall_equation.png)
 
 for L being a set of possible targets and R being a function calculating vanilla recall. Grapheme root is twice as important as vowel diactric or consonant diactric for the competition leaderboard metric.
 
