@@ -10,7 +10,7 @@ This dataset contains images of hand-written Bengali characters. Bengali charact
 
 #### Preprocessing
 
-There is around 200000 images in the training set, each with resolution 137 x 200. In this resolution, most of the image is empty and the letter is often in the corner, so we cut out 128 x 128 image of it, resizing if necessary to keep the letter in the image. To make experiments faster, we decide on resizing images to size 32 x 32. This is not the case in neural network section.
+There is around 200000 images in the training set, each with resolution 137 x 200. In this resolution, most of the image is empty and the letter is often in the corner, so we cut out 128 x 128 image of it, resizing if necessary to keep the letter in the image. To make experiments faster, we decide on resizing images to size 32 x 32. This is not the case in neural network section, since neural networks work better in higher resolution.
 
 ## Data presentation
 
